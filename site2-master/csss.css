@@ -1,0 +1,119 @@
+
+
+@keyframes anim {
+
+  0% {color: whitesmoke; margin-left: 30px}
+  10% {color: greenyellow; margin-left: 180px}
+  20% {color: red; margin-left: 380px}
+  30% {color: yellow; margin-left: 580px}
+  40% {color: purple; margin-left: 780px}
+  50% {color: deeppink; margin-left: 980px}
+  60% {color: blueviolet; margin-left: 780px}
+  70% {color: blue; margin-left: 580px}
+  80% {color: sienna; margin-left: 380px}
+  90% {color: sandybrown; margin-left: 180px}
+  100% {color: black; margin-left: 30px}
+
+}
+html{
+
+  background-image: url("7147VWWEveL.jpg");
+
+}
+
+body{
+  background-color: lightskyblue;
+  margin-left: 80px;
+  margin-right: 80px;
+
+
+
+}
+
+#setup{
+
+display: grid;
+grid-template-columns: repeat(2, 200px);
+
+}
+
+#left{
+
+  alignment: left;
+  width: 200px;
+  height: 1800px;
+  background-color: #b3d4fc;
+  display: flex;
+  font-family: Cambria;
+  font-size: 25px;
+  color: orangered;
+  margin-top: 30px;
+
+}
+#right{
+  alignment: center;
+  display: flex;
+
+
+}
+#a1{
+  height: 700px;
+  width: 1000px;
+  font-family: Constantia;
+  color: whitesmoke;
+  font-size: 30px;
+
+
+}
+#tytul{
+
+
+  animation-name: anim;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  font-family: Gabriola;
+width: 400px;
+  height: 200px;
+  margin-top: 100px;
+  alignment: center;
+  font-size: 40px;
+  color: whitesmoke;
+  margin-left: 100px;
+
+}
+#nav{
+  alignment: left;
+
+
+}
+
+
+#article{
+
+  height: 1750px;
+
+
+}
+a{
+
+  font-family: Ebrima;
+  font-size: 24px;
+  color: deepskyblue;
+  text-decoration: none;
+
+}
+a:hover{
+
+  background-color: orange;
+
+}
+#a2{
+  font-size: 20px;
+  font-family: Ebrima;
+  word-spacing: 0.5px;
+
+
+
+}
+
